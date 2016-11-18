@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-navbar [color]="isAndroid ? 'royal' : 'primary'" >
+    <ion-title><b>Dados Pessoais</b></ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+ <ion-item>
+    <ion-thumbnail item-left>
+      <img src="assets/img/eilanesantos.jpg"/>
+    </ion-thumbnail>
+    
+     <h2 align="left"><b>{{ name }}</b></h2>
+  </ion-item>
+
+<ion-item>
+   <h4><b>Dados Pessoais</b></h4>
+   <br>
+   <h3>{{ nacionalidade}}, {{idade}}, {{estadoCivil}}</h3>
+    <br>
+    <h3> CPF: {{ cpf}}</h3>
+</ion-item> 
+    
+ <ion-item>
+   <h4><b>Endereço</b></h4>
+   <br>
+    <h3>{{ lougradouro}} </h3>
+    <br>
+    <h3>{{ bairro }}, {{cep}} </h3>
+    <br>
+    <h3>{{ cidade }} </h3>
+    <br>
+    <h3>{{ estado }} </h3>
+    <br>
+</ion-item>
+
+</ion-content>
+
+
+
+
+ 
+
